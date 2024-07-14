@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.server\\data\\studentcoursecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|solutionrelative:studentdirectory.server\\data\\studentcoursecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|solutionrelative:studentdirectory.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.client\\src\\components\\studenttable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|solutionrelative:studentdirectory.client\\src\\components\\studenttable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.server\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|solutionrelative:studentdirectory.server\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.server\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|solutionrelative:studentdirectory.server\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.client\\src\\components\\studenttable.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|solutionrelative:studentdirectory.client\\src\\components\\studenttable.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.client\\src\\components\\addstudentmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -17,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.client\\src\\components\\addstudentmodal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|solutionrelative:studentdirectory.client\\src\\components\\addstudentmodal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA4FABD6-9FD8-4F3A-BC35-4641CE3854B5}|StudentDirectory.Server\\StudentDirectory.Server.csproj|solutionrelative:studentdirectory.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.client\\src\\components\\studenttable.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|solutionrelative:studentdirectory.client\\src\\components\\studenttable.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|c:\\users\\hitu1\\desktop\\coding\\studentdirectory\\studentdirectory.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{154336DF-DB17-4BC2-86FB-519C3FD44240}|studentdirectory.client\\studentdirectory.client.esproj|solutionrelative:studentdirectory.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,91 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentCourseContext.cs",
-              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Data\\StudentCourseContext.cs",
-              "RelativeDocumentMoniker": "StudentDirectory.Server\\Data\\StudentCourseContext.cs",
-              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Data\\StudentCourseContext.cs",
-              "RelativeToolTip": "StudentDirectory.Server\\Data\\StudentCourseContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAywA4AAAAJAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Program.cs",
+              "RelativeDocumentMoniker": "StudentDirectory.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Program.cs",
+              "RelativeToolTip": "StudentDirectory.Server\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T00:51:03.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentTable.css",
-              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\StudentTable.css",
-              "RelativeDocumentMoniker": "studentdirectory.client\\src\\components\\StudentTable.css",
-              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\StudentTable.css",
-              "RelativeToolTip": "studentdirectory.client\\src\\components\\StudentTable.css",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-13T01:20:48.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "studentdirectory.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\App.jsx",
-              "RelativeToolTip": "studentdirectory.client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-13T01:18:33.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddStudentModal.jsx",
-              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.jsx",
-              "RelativeDocumentMoniker": "studentdirectory.client\\src\\components\\AddStudentModal.jsx",
-              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.jsx",
-              "RelativeToolTip": "studentdirectory.client\\src\\components\\AddStudentModal.jsx",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAIwGMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-13T01:17:22.727Z",
+              "WhenOpened": "2024-07-14T01:30:00.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StudentTable.jsx",
-              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\StudentTable.jsx",
-              "RelativeDocumentMoniker": "studentdirectory.client\\src\\components\\StudentTable.jsx",
-              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\StudentTable.jsx",
-              "RelativeToolTip": "studentdirectory.client\\src\\components\\StudentTable.jsx",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAIwGsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-07-13T00:34:43.799Z",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentDirectory.Server\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Models\\Student.cs",
+              "RelativeToolTip": "StudentDirectory.Server\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T01:29:44.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "StudentDirectory.Server\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Models\\Course.cs",
+              "RelativeToolTip": "StudentDirectory.Server\\Models\\Course.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T01:29:39.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AddStudentModal.css",
-              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.css",
-              "RelativeDocumentMoniker": "studentdirectory.client\\src\\components\\AddStudentModal.css",
-              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.css",
-              "RelativeToolTip": "studentdirectory.client\\src\\components\\AddStudentModal.css",
-              "ViewState": "AQIAABsAAAAAAAAAAADwvykAAAABAAAA",
+              "Title": "StudentTable.css",
+              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\StudentTable.css",
+              "RelativeDocumentMoniker": "studentdirectory.client\\src\\components\\StudentTable.css",
+              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\StudentTable.css",
+              "RelativeToolTip": "studentdirectory.client\\src\\components\\StudentTable.css",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-13T01:21:07.17Z",
+              "WhenOpened": "2024-07-14T01:28:54.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "StudentDirectory.Server\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\StudentDirectory.Server\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "StudentDirectory.Server\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowEwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T01:28:16.903Z",
+              "Title": "AddStudentModal.jsx",
+              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.jsx",
+              "RelativeDocumentMoniker": "studentdirectory.client\\src\\components\\AddStudentModal.jsx",
+              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.jsx",
+              "RelativeToolTip": "studentdirectory.client\\src\\components\\AddStudentModal.jsx",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-07-14T01:28:50.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddStudentModal.css",
+              "DocumentMoniker": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.css",
+              "RelativeDocumentMoniker": "studentdirectory.client\\src\\components\\AddStudentModal.css",
+              "ToolTip": "C:\\Users\\hitu1\\Desktop\\Coding\\StudentDirectory\\studentdirectory.client\\src\\components\\AddStudentModal.css",
+              "RelativeToolTip": "studentdirectory.client\\src\\components\\AddStudentModal.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-14T01:28:49.21Z",
               "EditorCaption": ""
             }
           ]

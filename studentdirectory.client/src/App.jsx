@@ -1,6 +1,6 @@
 import React from 'react';
 import StudentTable from './components/StudentTable';
-import './App.css'; // Ensure this import is present to apply global styles
+import './App.css';
 
 function App() {
     return (

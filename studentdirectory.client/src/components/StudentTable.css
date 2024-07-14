@@ -24,7 +24,7 @@
     .student-table-container thead {
         position: sticky;
         top: 0;
-        background: #1f2937; /* Same as bg-gray-800 */
+        background: #1f2937; 
         z-index: 1;
     }
 

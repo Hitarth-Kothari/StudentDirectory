@@ -28,10 +28,10 @@ const AddStudentModal = ({ isOpen, onRequestClose, fetchStudents, courses, stude
             name,
             courseIds: selectedCourses.map(Number),
         };
-        console.log('Submitting student data:', newStudent); // Log the request data
+        console.log('Submitting student data:', newStudent); 
         try {
             if (student) {
-                console.log(`Updating student with ID: ${student.studentId}`); // Log the student ID being updated
+                console.log(`Updating student with ID: ${student.studentId}`);
                 await axios.put(`/api/students/${student.studentId}`, newStudent);
             } else {
                 await axios.post('/api/students', newStudent);
