@@ -1,0 +1,37 @@
+.student-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+    .student-table-container .heading {
+        margin-bottom: 2rem;
+    }
+
+    .student-table-container .w-full {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+
+    .student-table-container table {
+        min-width: 100%;
+        table-layout: auto;
+    }
+
+    .student-table-container thead {
+        position: sticky;
+        top: 0;
+        background: #1f2937; /* Same as bg-gray-800 */
+        z-index: 1;
+    }
+
+    .student-table-container tbody {
+        overflow-y: auto;
+    }
+
+    .student-table-container button.fixed {
+        z-index: 10;
+    }
