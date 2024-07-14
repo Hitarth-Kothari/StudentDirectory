@@ -106,42 +106,16 @@
     max-width: 400px;
 }
 
-.bg-green-600 {
-    background-color: #38a169;
+.grid {
+    display: grid;
 }
 
-.hover\\:bg-green-700:hover {
-    background-color: #2f855a;
+.grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.bg-red-600 {
-    background-color: #e53e3e;
-}
-
-.hover\\:bg-red-700:hover {
-    background-color: #c53030;
-}
-
-.font-bold {
-    font-weight: 700;
-}
-
-.py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.rounded {
-    border-radius: 0.25rem;
-}
-
-.mr-2 {
-    margin-right: 0.5rem;
+.gap-4 {
+    gap: 1rem;
 }
 
 .fixed {
@@ -170,4 +144,10 @@
 }
 
 .rounded-full {
-    bo
+    border-radius: 9999px;
+}
+
+.no-bullets {
+    list-style-type: none;
+    padding-left: 0;
+}

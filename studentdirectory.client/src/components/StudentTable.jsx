@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AddStudentModal from './AddStudentModal';
 import './StudentTable.css';
@@ -45,6 +45,14 @@ const StudentTable = () => {
         return courseIds.map(id => courses.find(course => course.courseId === id)?.courseName).filter(Boolean);
     };
 
+    const splitCoursesIntoColumns = (courses) => {
+        const columns = [[], []];
+        courses.forEach((course, index) => {
+            columns[index % 2].push(course);
+        });
+        return columns;
+    };
+
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center py-4">
             <h1 className="text-4xl font-bold mb-8">Student Directory</h1>
@@ -52,26 +60,30 @@ const StudentTable = () => {
                 {students.map(student => (
                     <div key={student.studentId} className="bg-gray-800 p-6 rounded-lg shadow-lg flex-1 min-w-[300px] max-w-[400px] flex flex-col">
                         <h2 className="text-2xl font-bold mb-4 text-center">{student.name}</h2>
-                        <ul className="list-disc list-inside mb-4 flex-1">
-                            {getCourseNames(student.courseIds).map((courseName, index) => (
-                                <li key={index}>{courseName}</li>
+                        <div className="flex-1 grid grid-cols-2 gap-4 mb-4">
+                            {splitCoursesIntoColumns(getCourseNames(student.courseIds)).map((column, columnIndex) => (
+                                <ul key={columnIndex} className="no-bullets">
+                                    {column.map((courseName, index) => (
+                                        <li key={index}>{courseName}</li>
+                                    ))}
+                                </ul>
                             ))}
-                        </ul>
+                        </div>
                         <div className="flex justify-center">
                             <button
-                                className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2"
+                                className="text-white font-bold py-2 px-4 rounded mr-2"
                                 onClick={() => {
                                     setEditingStudent(student);
                                     setIsAddStudentModalOpen(true);
                                 }}
                             >
-                                Edit
+                                ✏️
                             </button>
                             <button
-                                className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                                className="text-white font-bold py-2 px-4 rounded"
                                 onClick={() => handleDeleteStudent(student.studentId)}
                             >
-                                Delete
+                                🗑️
                             </button>
                         </div>
                     </div>
