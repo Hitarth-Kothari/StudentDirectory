@@ -42,47 +42,40 @@ const StudentTable = () => {
     };
 
     const getCourseNames = (courseIds) => {
-        return courseIds.map(id => courses.find(course => course.courseId === id)?.courseName).filter(Boolean).join(', ');
+        return courseIds.map(id => courses.find(course => course.courseId === id)?.courseName).filter(Boolean);
     };
 
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center py-4">
             <h1 className="text-4xl font-bold mb-8">Student Directory</h1>
-            <div className="w-full max-w-screen-xl px-4">
-                <table className="min-w-full divide-y divide-gray-700 table-fixed">
-                    <thead className="bg-green-600">
-                        <tr>
-                            <th className="px-6 py-3 text-center text-xs font-medium text-white uppercase tracking-wider w-1/4">Name</th>
-                            <th className="px-6 py-3 text-center text-xs font-medium text-white uppercase tracking-wider w-1/2">Courses</th>
-                            <th className="px-6 py-3 text-center text-xs font-medium text-white uppercase tracking-wider w-1/4">Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody className="bg-gray-800 divide-y divide-gray-700">
-                        {students.map(student => (
-                            <tr key={student.studentId} className="hover:bg-gray-700">
-                                <td className="px-6 py-4 whitespace-nowrap text-center">{student.name}</td>
-                                <td className="px-6 py-4 whitespace-nowrap text-center">{getCourseNames(student.courseIds)}</td>
-                                <td className="px-6 py-4 whitespace-nowrap text-center">
-                                    <button
-                                        className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2"
-                                        onClick={() => {
-                                            setEditingStudent(student);
-                                            setIsAddStudentModalOpen(true);
-                                        }}
-                                    >
-                                        Edit
-                                    </button>
-                                    <button
-                                        className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-                                        onClick={() => handleDeleteStudent(student.studentId)}
-                                    >
-                                        Delete
-                                    </button>
-                                </td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
+            <div className="flex flex-wrap justify-center gap-4 w-full max-w-screen-xl px-4">
+                {students.map(student => (
+                    <div key={student.studentId} className="bg-gray-800 p-6 rounded-lg shadow-lg flex-1 min-w-[300px] max-w-[400px] flex flex-col">
+                        <h2 className="text-2xl font-bold mb-4 text-center">{student.name}</h2>
+                        <ul className="list-disc list-inside mb-4 flex-1">
+                            {getCourseNames(student.courseIds).map((courseName, index) => (
+                                <li key={index}>{courseName}</li>
+                            ))}
+                        </ul>
+                        <div className="flex justify-center">
+                            <button
+                                className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2"
+                                onClick={() => {
+                                    setEditingStudent(student);
+                                    setIsAddStudentModalOpen(true);
+                                }}
+                            >
+                                Edit
+                            </button>
+                            <button
+                                className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                                onClick={() => handleDeleteStudent(student.studentId)}
+                            >
+                                Delete
+                            </button>
+                        </div>
+                    </div>
+                ))}
             </div>
             <button
                 className="fixed bottom-10 right-10 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-full text-2xl"
