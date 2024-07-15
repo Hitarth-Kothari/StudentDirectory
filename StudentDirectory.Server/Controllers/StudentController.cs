@@ -59,7 +59,6 @@ namespace StudentDirectory.Server.Controllers
             return NoContent();
         }
 
-
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStudent(int id)
         {
@@ -75,11 +74,29 @@ namespace StudentDirectory.Server.Controllers
             return NoContent();
         }
 
-
         [HttpGet("courses")]
         public ActionResult<IEnumerable<Course>> GetCourses()
         {
             return StudentCourseContext.Courses;
+        }
+
+        [HttpPost("courses")]
+        public ActionResult<Course> AddCourse([FromBody] Course course)
+        {
+            if (string.IsNullOrWhiteSpace(course.CourseName))
+            {
+                return BadRequest(new { error = "Course name is required" });
+            }
+
+            var newCourse = new Course
+            {
+                CourseId = StudentCourseContext.Courses.Max(c => c.CourseId) + 1,
+                CourseName = course.CourseName
+            };
+
+            StudentCourseContext.Courses.Add(newCourse);
+
+            return Ok(newCourse);
         }
     }
 }
