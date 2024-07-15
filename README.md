@@ -1,6 +1,12 @@
-# Student Directory
+# Student Directory Web Application
 
-This is a web application for managing a student directory. It allows users to add, edit, and delete students and their associated courses.
+This is a web application for managing a student directory. It allows users to add, edit, and delete students and their associated courses. The application also includes the following features:
+
+- **Search Functionality:** Users can search for students by name.
+- **Course Filtering:** Users can filter the student list by the courses they have taken.
+- **Course Statistics:** A statistics modal shows the number of students enrolled in each course using a bar chart.
+- **Add Courses:** Users can add new courses to the directory.
+- **Responsive Design:** The application is designed to be responsive and works well on various screen sizes.
 
 ## Technologies Used
 
