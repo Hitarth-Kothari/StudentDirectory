@@ -40,10 +40,6 @@ cd student-directory
 
         npm install
 
-3. Run the development server:
-
-        npm run dev
-
 ## Backend Setup
 
 1. Navigate to the client directory:
