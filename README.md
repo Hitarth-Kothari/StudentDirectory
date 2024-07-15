@@ -92,7 +92,8 @@ cd student-directory
 1. Click the "📘" button at the top left to filter the student list by courses.
 2. Select the courses you want to filter by.
 3. Click "Apply" to see the filtered list of students.
-4. To clear the filter, click the "Clear Filter" button that appears.
+4. While the filter is active, the buttons background will change to red
+5. To clear the filter, click the "📘" button again.
 
 
 ### Deleting Students
