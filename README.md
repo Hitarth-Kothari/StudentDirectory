@@ -12,14 +12,14 @@ This is a web application for managing a student directory. It allows users to a
 
 - **Frontend**: React, TailwindCSS, Axios, React Modal
 - **Backend**: .NET Core, Entity Framework Core, C#
-- **Database**: SQLite (or any database supported by Entity Framework Core)
+- **Database**: SQLite
 - **Build Tools**: Vite
 
 ## Prerequisites
 
 - Node.js (>= 14.x)
 - .NET SDK (>= 5.x)
-- SQLite (if using SQLite for local development)
+- SQLite
 
 ## Setup and Installation
 
