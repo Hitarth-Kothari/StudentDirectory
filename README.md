@@ -70,13 +70,34 @@ cd student-directory
 
 ### Editing Students
 
-1. Click the "Edit" button next to the student you want to edit.
+1. Click the "✏️" button next to the student you want to edit.
 2. Modify the student's name and courses as needed.
 3. Click "Save" to update the student's information.
 
+### Using the Search Bar
+
+1. Locate the search bar at the top of the page, below the "Student Directory" title.
+2. Type the name of the student you are looking for.
+3. The list of students will be filtered in real-time to match your search query.
+4. If no students match the search query, a message saying "No students match this name" will be displayed.
+
+### Viewing Course Statistics
+
+1. Click the "📊" button at the top right to open the statistics modal.
+2. View the bar chart showing the number of students enrolled in each course.
+3. Click "Close" to exit the statistics modal.
+
+### Filtering by Course
+
+1. Click the "📘" button at the top left to filter the student list by courses.
+2. Select the courses you want to filter by.
+3. Click "Apply" to see the filtered list of students.
+4. To clear the filter, click the "Clear Filter" button that appears.
+
+
 ### Deleting Students
 
-1. Click the "Delete" button next to the student you want to remove.
+1. Click the "🗑️" button next to the student you want to remove.
 2. Confirm the deletion in the prompt.
 
 ## Entity Framework Core Migrations
@@ -86,14 +107,14 @@ cd student-directory
 To add a new migration, run the following command in the Package Manager Console:
 
 ```powershell
-Add-Migration MigrationName
+dotnet ef migrations add MigrationName
 ```
 ### Updating the Database
 
 To apply the migrations and update the database, run:
 
 ```powershell
-Update-Database
+dotnet ef database update
 ```
 ### Example: Adding More Courses
 
@@ -113,8 +134,8 @@ Update-Database
 
 2. Create a new migration:
 
-        Add-Migration AddMoreCourses
+        dotnet ef migrations add AddMoreCourses
 
 3. Update the database:
 
-        Update-Database
+        dotnet ef database update
