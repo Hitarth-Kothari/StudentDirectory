@@ -60,7 +60,7 @@ const StudentTable = () => {
     };
 
     const filteredStudents = students.filter(student => {
-        const matchesName = student.name.toLowerCase().startsWith(searchQuery.toLowerCase());
+        const matchesName = student.name.toLowerCase().includes(searchQuery.toLowerCase());
         const matchesCourses = selectedFilterCourses.length === 0 || selectedFilterCourses.every(courseId => student.courseIds.includes(parseInt(courseId)));
         return matchesName && matchesCourses;
     });
