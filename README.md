@@ -40,10 +40,6 @@ cd student-directory
 
         npm install
 
-3. Run the development server:
-
-        npm run dev
-
 ## Backend Setup
 
 1. Navigate to the client directory:
@@ -58,7 +54,7 @@ cd student-directory
 
         dotnet ef database update
 
-4. Run the backend server:
+4. Run the backend server (This will also initialize the frontend and host the website):
 
         dotnet run
 
