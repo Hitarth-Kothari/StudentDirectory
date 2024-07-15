@@ -1,13 +1,16 @@
 ﻿import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import AddStudentModal from './AddStudentModal';
+import StatsModal from './StatsModal';
 import './StudentTable.css';
 
 const StudentTable = () => {
     const [students, setStudents] = useState([]);
     const [courses, setCourses] = useState([]);
     const [isAddStudentModalOpen, setIsAddStudentModalOpen] = useState(false);
+    const [isStatsModalOpen, setIsStatsModalOpen] = useState(false);
     const [editingStudent, setEditingStudent] = useState(null);
+    const [searchQuery, setSearchQuery] = useState('');
 
     useEffect(() => {
         fetchStudents();
@@ -53,11 +56,42 @@ const StudentTable = () => {
         return columns;
     };
 
+    const filteredStudents = students.filter(student =>
+        student.name.toLowerCase().startsWith(searchQuery.toLowerCase())
+    );
+
+    const courseStats = courses.reduce((acc, course) => {
+        acc[course.courseName] = filteredStudents.filter(student => student.courseIds.includes(course.courseId)).length;
+        return acc;
+    }, {});
+
     return (
         <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center py-4">
-            <h1 className="text-4xl font-bold mb-8">Student Directory</h1>
+            <div className="w-full max-w-screen-xl flex justify-between items-center mb-8 px-4">
+                <div className="invisible">
+                    <button
+                        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    >
+                        📊
+                    </button>
+                </div>
+                <h1 className="text-4xl font-bold text-center">Student Directory</h1>
+                <button
+                    className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onClick={() => setIsStatsModalOpen(true)}
+                >
+                    📊
+                </button>
+            </div>
+            <input
+                type="text"
+                className="bg-gray-700 text-white rounded px-2 py-1 mb-8 text-center"
+                placeholder="Search by name"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+            />
             <div className="flex flex-wrap justify-center gap-4 w-full max-w-screen-xl px-4">
-                {students.map(student => (
+                {filteredStudents.map(student => (
                     <div key={student.studentId} className="bg-gray-800 p-6 rounded-lg shadow-lg flex-1 min-w-[300px] max-w-[400px] flex flex-col">
                         <h2 className="text-2xl font-bold mb-4 text-center">{student.name}</h2>
                         <div className="flex-1 grid grid-cols-2 gap-4 mb-4">
@@ -104,6 +138,11 @@ const StudentTable = () => {
                 fetchStudents={fetchStudents}
                 courses={courses}
                 student={editingStudent}
+            />
+            <StatsModal
+                isOpen={isStatsModalOpen}
+                onRequestClose={() => setIsStatsModalOpen(false)}
+                courseStats={courseStats}
             />
         </div>
     );
