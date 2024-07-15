@@ -12,14 +12,14 @@ This is a web application for managing a student directory. It allows users to a
 
 - **Frontend**: React, TailwindCSS, Axios, React Modal
 - **Backend**: .NET Core, Entity Framework Core, C#
-- **Database**: SQLite (or any database supported by Entity Framework Core)
+- **Database**: SQLite
 - **Build Tools**: Vite
 
 ## Prerequisites
 
 - Node.js (>= 14.x)
 - .NET SDK (>= 5.x)
-- SQLite (if using SQLite for local development)
+- SQLite
 
 ## Setup and Installation
 
@@ -60,8 +60,7 @@ cd student-directory
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:3000` to access the frontend.
-2. The backend will be running at `https://localhost:8000`.
+1. Open your browser and navigate to `http://localhost:8000` to access the frontend.
 
 ### Adding Students
 
