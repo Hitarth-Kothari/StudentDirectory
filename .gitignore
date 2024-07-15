@@ -14,3 +14,8 @@ obj/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Ignore SQLite database files
+*.db
+*.db-wal
+*.db-shm
