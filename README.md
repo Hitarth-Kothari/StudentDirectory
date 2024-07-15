@@ -60,8 +60,7 @@ cd student-directory
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:3000` to access the frontend.
-2. The backend will be running at `https://localhost:8000`.
+1. Open your browser and navigate to `http://localhost:8000` to access the frontend.
 
 ### Adding Students
 
